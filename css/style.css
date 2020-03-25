@@ -826,6 +826,10 @@ header {
     color: #fff;
 }
 
+.service h4 {
+  -webkit-transition: 0.2s color;
+  transition: 0.2s color;
+}
 
 .service:hover h4 {
     color: #fff;
