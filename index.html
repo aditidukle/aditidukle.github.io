@@ -39,8 +39,14 @@
 <body>
         <!-- Header -->
         <header id="home">
+                <!-- Background Image -->
+                <div class="bg-img" style="background-image: url('./img/background1.jpg');">
+                        <div class="overlay"></div>
+                </div>
+                <!-- /Background Image -->
+
                 <!-- Nav -->
-                <nav id="nav" class="navbar">
+                <nav id="nav" class="navbar nav-transparent">
                         <div class="container">
 
                                 <div class="navbar-header">
@@ -62,10 +68,10 @@
                                 <!--  Main navigation  -->
                                 <ul class="main-nav nav navbar-nav navbar-right">
                                         <li><a href="#home">Home</a></li>
-                                        <li><a href="#features">About us</a></li>
-                                        <li><a href="#service">Services</a></li>
+										<li><a href="#features">About us</a></li>
+										<li><a href="#service">Services</a></li>
                                         <li><a href="#portfolio">Portfolio</a></li>
-                                        <li><a href="#testimonial">Testimonial</a></li>
+										<li><a href="#testimonial">Testimonial</a></li>
                                         <li><a href="#team">Team</a></li>
                                         <li><a href="#contact">Contact</a></li>
                                 </ul>
@@ -74,15 +80,27 @@
                         </div>
                 </nav>
                 <!-- /Nav -->
-		<div class="bg-img" >
-	    <!-- Background Image -->
-		<div id="about-slider" class="owl-carousel owl-theme">
-			<img class="img-responsive" src="./img/background3.jpg" alt="">
-			<img class="img-responsive" src="./img/background2.jpg" alt="">
-			<img class="img-responsive" src="./img/background3.jpg" alt="">
-		</div>
-		<!-- /Background Image -->
-</div>
+
+                <!-- home wrapper -->
+                <div class="home-wrapper">
+                        <div class="container">
+                                <div class="row">
+                                        <img class="logo-alt" src="img/logo-alt.png" alt="logo" width="130" height="130">
+
+                                        <!-- home content -->
+                                        <div class="col-md-10 col-md-offset-1">
+                                                <div class="home-content">
+                                                        <h2 class="white-text">Professional Surveyors for land development projects.</h2>
+
+                                                </div>
+                                        </div>
+                                        <!-- /home content -->
+
+                                </div>
+                        </div>
+                </div>
+                <!-- /home wrapper -->
+
         </header>
         <!-- /Header -->
 
@@ -139,7 +157,7 @@
 
         </div>
         <!-- /Why Choose Us -->
-
+		
         <!-- Service -->
         <div id="service" class="section md-padding">
 
@@ -572,4 +590,3 @@
 </body>
 
 </html>
-
