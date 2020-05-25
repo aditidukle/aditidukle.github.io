@@ -45,15 +45,15 @@ Table OF Contents
 /* -- typography -- */
 
 body {
-    font-family: 'Varela Round', sans-serif;
-    font-size: 16px;
+    font-family: 'times', sans-serif;
+    font-size: 19px;
     line-height: 1.6;
     overflow-x: hidden;
     color: #868F9B;
 }
 
 h1, h2, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'times', sans-serif;
     font-weight: 700;
     margin-top: 0px;
     margin-bottom: 20px;
@@ -1425,6 +1425,7 @@ header {
 	Contact
 \*------------------------------------*/
 
+
 .contact {
     margin: 15px 0px;
     text-align: center;
@@ -1454,6 +1455,19 @@ header {
     margin-left: 15px;
 }
 
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    }
 /*------------------------------------*\
 	Footer
 \*------------------------------------*/
@@ -1938,3 +1952,4 @@ text-shadow: 2px 2px #000000;
   color: #ffffff;
   outline: none;
 }
+
