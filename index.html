@@ -238,15 +238,6 @@
                   <div class="overlay"></div>
                   <div class="work-content">
                      <div class="work-link">
-                        <a class="modal-button" href="#myModal1"><i class="fa fa-external-link"></i></a>
-                        <a class="lightbox" href="./img/work-he1.jpg"><i class="fa fa-search"></i></a>
-                     </div>
-                  </div>
-                  <!-- The Modal -->
-                  <div id="myModal1" class="modal">
-                     <!-- Modal content -->
-                     <div class="modal-content">
-                        <span class="close">&times;</span>
                         <p>  Western Bypass Road Connecting Verna To Dramapur, Goa</p>
                         <p>  Details: 4 Lane National Highway of length 12 Kms and 45 Mtrs wide Connecting Verna to  Dramapur. The work includes topographical survey, marking of ROW line, road center line, establishment of permanent bench mark points  and demarcation of RCC features along the entire road length.</p>
                         <p>  Client: M/s. N G Tarmat </p>
@@ -261,15 +252,6 @@
                   <div class="overlay"></div>
                   <div class="work-content">
                      <div class="work-link">
-                        <a class="modal-button" href="#myModal2"><i class="fa fa-external-link"></i></a>
-                        <a class="lightbox" href="./img/work-he2.jpg"><i class="fa fa-search"></i></a>
-                     </div>
-                  </div>
-                  <!-- The Modal -->
-                  <div id="myModal2" class="modal">
-                     <!-- Modal content -->
-                     <div class="modal-content">
-                        <span class="close">&times;</span>
                         <p>  Property  Survey of Zambaulim Devasthan, Goa.</p>
                         <p>  Details: Topographical contour survey including demarcation of the property boundaries to the extent of around 15 lacs sqm area belonging to the Devasthan</p>
                         <p>  Client: Shri. Dev Damodar Sausthan Committee, Zambaulim</p>
@@ -421,11 +403,11 @@
                <!-- /contact -->
                <!-- contact form -->
                <div class="col-md-8 col-md-offset-2">
-                  <form class="contact-form" action="//formspree.io/contact@hightecengineers.com" method="POST">
-                     <input type="text" name="name" class="input" placeholder="Name">
-                     <input type="email" name="_replyto" class="input" placeholder="Email">
-                     <input type="text" name="subject" class="input" placeholder="Subject">
-                     <textarea class="input" name="message" placeholder="Message"></textarea>
+                  <form  class="contact-form" accept-charset="utf-8"  action="//formspree.io/contact@hightecengineers.com" method="POST">
+					 <input type="text" name="name" id="full-name" placeholder="Firstname Lastname" required="">
+                     <input type="email" name="_replyto" id="email-address" placeholder="Email" required="">
+                     <textarea rows="5" name="message" id="message" placeholder="Please enter your message" required=""></textarea>
+                     <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
                      <input type="submit" style="background-color: #6195FF; color: #FFF; width: 20%;" value="Send">
                   </form>
                </div>
@@ -485,7 +467,7 @@
       <script type="text/javascript" src="js/bootstrap.min.js"></script>
       <script type="text/javascript" src="js/owl.carousel.min.js"></script>
       <script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
-      <script type="text/javascript" src="js/modal.js"></script>
       <script type="text/javascript" src="js/main.js"></script>
    </body>
 </html>
+
